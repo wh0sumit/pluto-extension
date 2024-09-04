@@ -1,14 +1,17 @@
-# AI Text Assistant Chrome Extension
+# Pluto - Advanced AI Text Assistant Chrome Extension
 
-This Chrome extension provides an AI-powered text assistant that helps users improve their writing, fix grammar, and manipulate text in various ways using OpenAI's GPT-3.5 model.
+Pluto is a powerful Chrome extension that leverages OpenAI's GPT-3.5 model to provide advanced text processing and analysis capabilities. It helps users improve their writing, fix grammar, and manipulate text in various ways, all within their browser.
 
 ## Features
 
-- Improve writing
-- Fix grammar and spelling
-- Make text longer or shorter
-- Simplify language
-- Rephrase text
+- Improve writing style and clarity
+- Fix grammar and spelling errors
+- Expand or condense text
+- Simplify complex language
+- Rephrase content
+- Custom prompts for specific tasks
+- Text-to-speech functionality
+- Translation support
 
 ## Installation
 
@@ -19,23 +22,47 @@ This Chrome extension provides an AI-powered text assistant that helps users imp
 
 ## Setup
 
-1. After installation, click on the extension icon in Chrome.
-2. Go to the options page and enter your OpenAI API key.
+1. After installation, click on the Pluto icon in your Chrome toolbar.
+2. You'll be prompted to enter your OpenAI API key. If you don't have one, you can obtain it from [OpenAI's website](https://platform.openai.com/account/api-keys).
+3. Enter your API key and click "Save API Key".
 
 ## Usage
 
-1. Select text on any webpage.
-2. Click the floating "AI Assistant" button or use the keyboard shortcut (Ctrl+M).
-3. Choose an action from the modal that appears.
-4. View the AI-generated result in the modal.
+1. Select any text on a webpage.
+2. A floating "Pluto" button will appear near your selection.
+3. Click the button or use the keyboard shortcut (Ctrl+M) to open the Pluto assistant.
+4. Choose an action from the available options:
+   - Improve Writing
+   - Fix Grammar & Spelling
+   - Make Longer
+   - Make Shorter
+   - Simplify Language
+   - Rephrase
+5. View the AI-generated result in the modal.
+6. Use the utility buttons to:
+   - Copy the result to your clipboard
+   - Have the text read aloud
+   - Regenerate the response
+   - Translate the text to another language
+7. For more specific tasks, use the "Custom Prompt" feature at the bottom of the modal.
 
-## Technologies Used
+## Tips for Users
 
-- JavaScript
-- HTML/CSS
-- Tailwind CSS
-- Chrome Extension API
-- OpenAI API
+- For best results, select a reasonable amount of text (a paragraph or two) rather than entire pages.
+- Experiment with different actions to see which ones work best for your needs.
+- Use the "Custom Prompt" feature for specific instructions or unique use cases.
+- If you're not satisfied with a result, try the "Regenerate" button for a different output.
+- The extension works on most websites, but some may have restrictions that prevent text selection or script injection.
+
+## Privacy and Data Usage
+
+Pluto processes text locally in your browser and only sends the selected text to OpenAI's API for processing. No data is stored on our servers. However, please be mindful of the text you process, especially if it contains sensitive information.
+
+## Troubleshooting
+
+- If the extension isn't working, make sure you've entered a valid OpenAI API key.
+- Check that you have an active internet connection, as the extension requires online access to function.
+- If you encounter any issues, try refreshing the page or restarting your browser.
 
 ## Contributing
 
@@ -44,3 +71,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## Support
+
+If you encounter any issues or have questions, please open an issue on this GitHub repository.
+
+Enjoy using Pluto to enhance your writing and text processing tasks!
+# pluto-extension
