@@ -1,8 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "AI Text Assistant",
-    "version": "1.1",
-    "description": "Process selected text with AI assistance",
+    "name": "Pluto - Advanced AI Text Assistant",
+    "version": "1.0",
+    "description": "An advanced AI-powered text processing and analysis tool",
+    "icons": {
+        "128": "pluto-icon-128.png"
+    },
     "permissions": ["activeTab", "storage"],
     "host_permissions": ["https://api.openai.com/*"],
     "background": {
@@ -14,6 +17,10 @@
             "js": ["content.js"]
         }
     ],
-    "action": {},
-    "options_page": "options.html"
+    "options_page": "options.html",
+    "action": {
+        "default_icon": {
+            "128": "pluto-icon-128.png"
+        }
+    }
 }
